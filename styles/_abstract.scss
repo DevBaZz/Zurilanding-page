@@ -1,0 +1,5 @@
+@function Rem($value){
+        $calculated: #{$value}/16;
+        // return value
+        @return $calculated;
+}
