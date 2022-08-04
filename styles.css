@@ -86,30 +86,24 @@ select {
   src: url("../fonts/GraphikBold.otf");
   font-weight: 700;
 }
-* {
+body {
   font-family: graphix;
   font-weight: 400;
 }
 
-.container {
-  width: clamp(12.5rem, 100%, 90rem);
-  background-color: aquamarine;
-  font-size: 1.125rem;
-  padding-block: 1.375em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5em;
+.hero {
+  padding: 0, 0.625rem;
+  padding-top: 12.1875rem;
+  min-height: 100vh;
   text-align: center;
-  margin: auto;
-  font-family: graphix;
 }
-.container > * {
-  background-color: aqua;
-  padding-block: 2.5rem;
-  background-image: url(".././img/curve1.png");
-  background-repeat: no-repeat;
-  background-size: 3.5rem;
-  background-position: 100% 0%;
+.hero .zuri-logo {
+  margin: auto;
+}
+
+.content-container {
+  width: clamp(12.5rem, 100%, 43.75rem);
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,19 @@
-*{
-        font-family: graphix;
+@use './abstract' as *;
+
+
+body{
+        font-family: $font-family-1;
         font-weight: 400;
+}
+.hero{
+        padding: 0 ,Rem(10) ;
+        padding-top: Rem(195);
+        min-height: 100vh;
+        text-align: center;
+        
+// Img
+        .zuri-logo{
+                margin: auto;
+        }
+
 }
