@@ -115,7 +115,7 @@ body .red {
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 110vh;
   text-align: center;
 }
 .hero .content-container > * + * {
