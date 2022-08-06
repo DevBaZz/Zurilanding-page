@@ -152,9 +152,23 @@ body{
 
 
 footer{
-
+        ul{
+                padding: 0;
+                li{
+                        list-style: none;
+                        padding: 0;}
+                a{
+                        text-decoration: none;
+                }
+        }
+        h6{
+                color: $color-h;
+                font-size: Rem(16);
+        }
         .foo{
                 margin-bottom: Rem(40,em);
+                display: flex;
+                justify-content:  space-between;
        
          
                
@@ -168,6 +182,30 @@ footer{
                 margin-top: Rem(32,em);
                 text-align: center;
                 padding-bottom: Rem(92, em);
+        }
+        .colum:nth-child(2){
+                gap: Rem(30,em);
+        }
+        .address:last-child{
+               
+                margin-top: Rem(24,em);
+                a{
+                        color: $red-color;
+                        font-size: Rem(14);
+                }
+        }
+        .AA>*+*:not(a){
+                color: $color-h;
+                opacity: 0.9;
+                font-size: Rem(14);
+        }
+        .links a {
+                color: $red-color;
+                font-size: Rem(14);
+        }
+        .inner:last-child > ul{
+                display: flex;
+                gap: Rem(24,em);
         }
 }
 

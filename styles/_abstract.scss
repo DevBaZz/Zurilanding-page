@@ -35,3 +35,8 @@ $font-size: (
 @mixin font1{
         font-size: (0.438rem, 3.01vw, 21rem);
 }
+
+
+.flex{
+        display: flex;
+}

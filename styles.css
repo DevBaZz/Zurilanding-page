@@ -40,7 +40,7 @@ p,
 figure,
 blockquote,
 dl,
-dd, h5, h6 {
+dd, h5, h6, ul, li, a, ol {
   margin: 0;
 }
 
@@ -96,6 +96,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.flex {
+  display: flex;
+}
+
 body {
   font-family: avert;
   font-weight: 400;
@@ -221,8 +225,24 @@ body .red {
 footer {
   padding-inline: 0.625rem;
 }
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  list-style: none;
+  padding: 0;
+}
+footer ul a {
+  text-decoration: none;
+}
+footer h6 {
+  color: #514949;
+  font-size: 1rem;
+}
 footer .foo {
   margin-bottom: 2.5em;
+  display: flex;
+  justify-content: space-between;
 }
 footer hr {
   border: 0.04375rem solid #514949;
@@ -232,6 +252,29 @@ footer .me {
   margin-top: 2em;
   text-align: center;
   padding-bottom: 5.75em;
+}
+footer .colum:nth-child(2) {
+  gap: 1.875em;
+}
+footer .address:last-child {
+  margin-top: 1.5em;
+}
+footer .address:last-child a {
+  color: hsl(3deg, 80%, 54%);
+  font-size: 0.875rem;
+}
+footer .AA > * + *:not(a) {
+  color: #514949;
+  opacity: 0.9;
+  font-size: 0.875rem;
+}
+footer .links a {
+  color: hsl(3deg, 80%, 54%);
+  font-size: 0.875rem;
+}
+footer .inner:last-child > ul {
+  display: flex;
+  gap: 1.5em;
 }
 
 .content-container {
