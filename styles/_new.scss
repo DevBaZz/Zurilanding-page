@@ -1,0 +1,41 @@
+@use  './abstract' as *;
+
+
+body{
+        background-color: #fffdf5;
+}
+
+nav{
+        padding-inline: Rem(16);
+        .enroll-now{
+                width: clamp(Rem(80), 100%, Rem(170));
+        }
+
+        .nav-content{
+                display: flex;
+                justify-content: space-between;
+        }
+}
+
+.hero-1-c{
+        display: flex;
+
+        .div-girl{
+                flex-basis: $div-ppl;
+                max-width: $div-ppl;
+        }
+        .div-guy{
+                flex-basis: $div-ppl;
+                max-width: $div-ppl;
+        }
+        .div{
+                flex-grow: 1;
+                flex-basis: 50%;
+                h1{
+                        font-size: Rem(49);
+                }
+                
+        }
+}
+
+

@@ -8,7 +8,9 @@ $flex-card: #FFFAFA;
 
 $max-content-width: 700;
 $max-content-width-f: 1240;
+$max-content-width-s: 1140;
 $percent: '%';
+$div-ppl: 25%;
 
 
 @function Rem($value, $type:'rem'){

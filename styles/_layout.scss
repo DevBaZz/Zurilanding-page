@@ -10,6 +10,10 @@
         width: clamp(Rem(200), 100%, Rem($max-content-width-f));
         margin: auto;
 }
+.content-container-s{
+        width: clamp(Rem(200), 100%, Rem($max-content-width-s));
+        margin: auto;
+}
 h6{
         color: $red-color;
 }
