@@ -1,6 +1,6 @@
 @use './abstract' as *;
 
 .content-container{
-        width: clamp(Rem(200), 100%, Rem(700));
+        width: clamp(Rem(200), 100%, Rem($max-content-width));
         margin: auto;
 }

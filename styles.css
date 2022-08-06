@@ -1,3 +1,28 @@
+@font-face {
+  font-family: graphix;
+  src: url("../fonts/GraphikRegular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: graphix;
+  src: url("../fonts/GraphikMedium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: graphix;
+  src: url("../fonts/GraphikBold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: avert;
+  src: url("../fonts/AvertaDemo-Regular.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: avert;
+  src: url("../fonts/averta-bold.otf");
+  font-weight: bold;
+}
 /* Box sizing rules */
 *,
 *::before,
@@ -71,34 +96,66 @@ select {
     scroll-behavior: auto !important;
   }
 }
-@font-face {
-  font-family: graphix;
-  src: url("../fonts/GraphikRegular.otf");
-  font-weight: 400;
-}
-@font-face {
-  font-family: graphix;
-  src: url("../fonts/GraphikMedium.otf");
-  font-weight: 500;
-}
-@font-face {
-  font-family: graphix;
-  src: url("../fonts/GraphikBold.otf");
-  font-weight: 700;
-}
 body {
-  font-family: graphix;
+  font-family: avert;
   font-weight: 400;
+}
+body .red {
+  color: hsl(3deg, 80%, 54%);
 }
 
 .hero {
-  padding: 0, 0.625rem;
-  padding-top: 12.1875rem;
+  padding-inline: 0.625rem;
+  padding-block: 4.3125rem;
+  background-image: url("https://zuri.team/img/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
   min-height: 100vh;
   text-align: center;
 }
-.hero .zuri-logo {
+.hero .content-container > * + * {
+  margin-top: 5.9375rem;
+}
+.hero .content-container .zuri-logo {
   margin: auto;
+}
+.hero .content-container .content-wrapper > * + * {
+  margin-top: 2.25rem;
+}
+.hero .content-container .content-wrapper h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #514949;
+}
+.hero .content-container .content-wrapper p {
+  font-size: 1rem;
+  color: #514949;
+  opacity: 0.9;
+}
+.hero .content-container .content-wrapper .cta-container {
+  margin-top: 5.75rem;
+}
+.hero .content-container .content-wrapper .cta {
+  text-decoration: none;
+}
+.hero .content-container .content-wrapper .cta-page-1 {
+  margin-right: 1.5em;
+  padding-block: 0.75em;
+  padding-inline: 1.75em;
+  border: 0.075em solid hsl(3deg, 80%, 54%);
+  color: hsl(3deg, 80%, 54%);
+}
+.hero .content-container .content-wrapper .cta-page-1:hover {
+  background-color: hsl(3deg, 80%, 54%);
+  color: hsl(0deg, 0%, 100%);
+  transition: background-color 300ms ease-in;
+}
+.hero .content-container .content-wrapper .cta-page-2 {
+  margin-right: 1.5em;
+  padding-block: 0.75em;
+  padding-inline: 1.75em;
+  background-color: hsl(3deg, 80%, 54%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 .content-container {

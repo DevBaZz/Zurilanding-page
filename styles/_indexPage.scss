@@ -2,18 +2,77 @@
 
 
 body{
-        font-family: $font-family-1;
+        font-family: $font-family-2;
         font-weight: 400;
+        .red{
+                color: $red-color;
+        }
 }
 .hero{
-        padding: 0 ,Rem(10) ;
-        padding-top: Rem(195);
+       padding-inline: Rem(10);
+       padding-block: Rem(69);
+       background-image: url("https://zuri.team/img/hero-bg.svg");
+       background-repeat: no-repeat;
+       background-position: 0% 0%;
+        
         min-height: 100vh;
         text-align: center;
-        
-// Img
+        .content-container{
+                &>*+*{
+                        margin-top: Rem(95);
+                }
+
+                // Img
         .zuri-logo{
                 margin: auto;
         }
+        .content-wrapper{
+                &> * + * {
+                        margin-top: Rem(36);
+                }
+
+        h1{
+                font-size: Rem(map-get($font-size, 'header'));
+                font-weight: bold;
+                color: $color-h;;
+        }
+
+        p{
+                font-size: Rem(map-get($font-size, 'p'));
+                color: $color-h;
+                opacity: 0.9;
+
+        }
+        .cta-container{
+                margin-top: Rem(92);
+        }
+        .cta{
+                text-decoration: none;
+                
+                
+        }
+        .cta-page-1{
+                margin-right: Rem(24,em);
+                padding-block: Rem(12,em);
+                padding-inline:Rem(28,em) ;
+                border: Rem(1.2,em) solid $red-color;
+                color: $red-color;
+             
+                &:hover{
+                        background-color: $red-color;
+                        color: $white;
+                        transition: background-color 300ms ease-in;
+                                }
+        }
+        .cta-page-2{
+                margin-right: Rem(24,em);
+                padding-block: Rem(12,em);
+                padding-inline:Rem(28,em) ;
+                background-color: $red-color;
+                color: $white;
+        }
+        }
+        }
+
 
 }
