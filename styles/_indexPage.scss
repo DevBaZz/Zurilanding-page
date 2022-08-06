@@ -70,6 +70,11 @@ body{
                 padding-inline:Rem(28,em) ;
                 background-color: $red-color;
                 color: $white;
+                &:hover{
+                        border: Rem(1.2,em) solid $red-color;
+                        color: $red-color;
+                        background-color: rgba(0, 0, 0, 0);
+                }
         }
         }
         }

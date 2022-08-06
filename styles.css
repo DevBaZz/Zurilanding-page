@@ -157,6 +157,11 @@ body .red {
   background-color: hsl(3deg, 80%, 54%);
   color: hsl(0deg, 0%, 100%);
 }
+.hero .content-container .content-wrapper .cta-page-2:hover {
+  border: 0.075em solid hsl(3deg, 80%, 54%);
+  color: hsl(3deg, 80%, 54%);
+  background-color: rgba(0, 0, 0, 0);
+}
 
 .content-container {
   width: clamp(12.5rem, 100%, 43.75rem);
