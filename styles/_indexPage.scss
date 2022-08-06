@@ -10,7 +10,7 @@ body{
 }
 .hero{
        padding-inline: Rem(10,em);
-       padding-block: Rem(69,em);
+       padding-top: Rem(69,em);
        background-image: url("https://zuri.team/img/hero-bg.svg");
        background-repeat: no-repeat;
        background-position: 0% 0%;
@@ -152,6 +152,7 @@ body{
 
 
 footer{
+        
         ul{
                 padding: 0;
                 li{
@@ -178,6 +179,7 @@ footer{
                 opacity: 0.2;
         }
         padding-inline: Rem(10);
+        padding-top: Rem(214,em);
         .me{
                 margin-top: Rem(32,em);
                 text-align: center;
@@ -206,6 +208,9 @@ footer{
         .inner:last-child > ul{
                 display: flex;
                 gap: Rem(12,em);
+        }
+        address{
+                font-style: normal;
         }
 }
 

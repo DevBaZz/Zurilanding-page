@@ -110,7 +110,7 @@ body .red {
 
 .hero {
   padding-inline: 0.625em;
-  padding-block: 4.3125em;
+  padding-top: 4.3125em;
   background-image: url("https://zuri.team/img/hero-bg.svg");
   background-repeat: no-repeat;
   background-position: 0% 0%;
@@ -224,6 +224,7 @@ body .red {
 
 footer {
   padding-inline: 0.625rem;
+  padding-top: 13.375em;
 }
 footer ul {
   padding: 0;
@@ -275,6 +276,9 @@ footer .links a {
 footer .inner:last-child > ul {
   display: flex;
   gap: 0.75em;
+}
+footer address {
+  font-style: normal;
 }
 
 .content-container {
