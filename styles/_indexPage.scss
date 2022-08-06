@@ -150,3 +150,26 @@ body{
         }
 }
 
+
+footer{
+
+        .foo{
+                margin-bottom: Rem(40,em);
+       
+         
+               
+        }
+        hr{
+                border: Rem(0.7) solid $color-h;
+                opacity: 0.2;
+        }
+        padding-inline: Rem(10);
+        .me{
+                margin-top: Rem(32,em);
+                text-align: center;
+                padding-bottom: Rem(92, em);
+        }
+}
+
+
+

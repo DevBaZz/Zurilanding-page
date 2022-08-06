@@ -218,6 +218,22 @@ body .red {
   margin-top: 3em;
 }
 
+footer {
+  padding-inline: 0.625rem;
+}
+footer .foo {
+  margin-bottom: 2.5em;
+}
+footer hr {
+  border: 0.04375rem solid #514949;
+  opacity: 0.2;
+}
+footer .me {
+  margin-top: 2em;
+  text-align: center;
+  padding-bottom: 5.75em;
+}
+
 .content-container {
   width: clamp(12.5rem, 100%, 43.75rem);
   margin: auto;
