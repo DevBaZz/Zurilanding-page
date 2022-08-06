@@ -68,12 +68,6 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -286,9 +280,6 @@ body.new {
   font-family: "graphix";
   padding-inline: 0.625em;
 }
-body.new > * + * {
-  margin-top: 2.25em;
-}
 
 nav {
   padding-block: 0.875em;
@@ -320,8 +311,21 @@ nav .nav-content {
 }
 
 .hero-1 {
+  margin-top: 2.25em;
   border: solid rgba(0, 0, 0, 0.122);
   border-width: 0 0 0.0625rem 0;
+}
+.hero-1 .enroll-c {
+  margin-top: 2.5em;
+}
+.hero-1 .enroll-c a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(3deg, 80%, 54%);
+  padding-block: 0.875em;
+  padding-inline: 1.875em;
+  border-radius: 5.4375rem;
 }
 .hero-1 .hero-1-c {
   display: flex;
@@ -342,7 +346,7 @@ nav .nav-content {
   mix-blend-mode: multiply;
 }
 .hero-1 .hero-1-c .div-girl img {
-  width: 100%;
+  width: clamp(8.75rem, 100%, 22.875rem);
 }
 .hero-1 .hero-1-c .div-guy {
   padding-top: 1em;
@@ -351,7 +355,7 @@ nav .nav-content {
   mix-blend-mode: multiply;
 }
 .hero-1 .hero-1-c .div-guy img {
-  width: 100%;
+  width: clamp(8.75rem, 100%, 22.875rem);
 }
 .hero-1 .hero-1-c .div {
   text-align: center;
@@ -368,11 +372,38 @@ nav .nav-content {
 .hero-1 .hero-1-c .hero-line {
   display: flex;
   justify-content: end;
+  margin-bottom: 1.75em;
+}
+.hero-1 .hero-1-c .hero-line2 {
+  display: flex;
+  justify-content: flex-end;
+  width: clamp(6.25rem, 100%, 12.5rem);
+  margin: auto;
+  padding-bottom: 2.125em;
 }
 
 .sub {
   border: solid rgba(0, 0, 0, 0.122);
   border-width: 0 0 0.0625rem 0;
+}
+.sub .flex {
+  padding-top: 1.25em;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub .flex .text-l {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.sub .flex .text-r {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 130%;
+}
+.sub .flex .text-r a {
+  color: #43b97f;
 }
 .sub .flex .div {
   display: flex;
@@ -390,6 +421,9 @@ nav .nav-content {
 }
 .sub .flex > * + * {
   flex-basis: 30%;
+}
+.sub .flex > * + * > img {
+  width: 12.5rem;
 }
 
 .content-container {
