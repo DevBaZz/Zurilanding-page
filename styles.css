@@ -281,12 +281,12 @@ footer address {
   font-style: normal;
 }
 
-body {
+body.new {
   background-color: #fffdf5;
   font-family: "graphix";
   padding-inline: 0.625em;
 }
-body > * + * {
+body.new > * + * {
   margin-top: 2.25em;
 }
 
