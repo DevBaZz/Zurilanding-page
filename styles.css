@@ -1,11 +1,11 @@
 @font-face {
   font-family: graphix;
-  src: url("../fonts/GraphikRegular.otf");
+  src: url("./fonts/GraphikRegular.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: graphix;
-  src: url("../fonts/GraphikMedium.otf");
+  src: url("./fonts/GraphikMedium.otf");
   font-weight: 500;
 }
 @font-face {
