@@ -14,6 +14,7 @@ body{
        background-image: url("https://zuri.team/img/hero-bg.svg");
        background-repeat: no-repeat;
        background-position: 0% 0%;
+       background-size: cover;
         
         min-height: 100vh;
         text-align: center;
@@ -45,6 +46,13 @@ body{
         }
         .cta-container{
                 margin-top: Rem(92,em);
+                display: flex;
+                justify-content: center;
+                gap: Rem(24,em);
+                flex-wrap: wrap-reverse;
+                align-content: center;
+                
+                
         }
         .cta{
                 text-decoration: none;
@@ -52,7 +60,7 @@ body{
                 
         }
         .cta-page-1{
-                margin-right: Rem(24,em);
+                
                 padding-block: Rem(12,em);
                 padding-inline:Rem(28,em) ;
                 border: Rem(1.2,em) solid $red-color;
@@ -65,7 +73,7 @@ body{
                                 }
         }
         .cta-page-2{
-                margin-right: Rem(24,em);
+               
                 padding-block: Rem(12,em);
                 padding-inline:Rem(28,em) ;
                 background-color: $red-color;
@@ -87,6 +95,7 @@ body{
         text-align: center;
         padding-top: Rem(141,em);
         padding-inline: Rem(10,em);
+        margin-bottom: Rem(60,em);
         .wrapper{
                 h6{
                         font-size: Rem(14);
@@ -96,6 +105,7 @@ body{
                         color: $color-h;
                         font-weight: 400;
                         font-size: Rem(24);
+                        margin-top: Rem(16,em);
                 }
                 padding-bottom: Rem(76,em);
         }
@@ -103,11 +113,16 @@ body{
         .flex-container{
                 display: flex;
                 gap: Rem(30,em);
+                
+                justify-content: center;
+                
                 .card{
                         background-color: $flex-card;
                         padding: Rem(61,em) Rem(47,em) Rem(82,em) Rem(36,em);
+                        flex-basis: 33%;
+
                         img{
-                                width: clamp(Rem(20), 100%, Rem(108));
+                                width: clamp(Rem(20), 100%, Rem(120));
                         }
                         .content{
                                 text-align: left;
@@ -115,13 +130,17 @@ body{
                                 p{
                                         font-size: Rem(16);
                                         color: $color-h;
+                                        opacity: .9;
                                         
                                 }
 
                                 a{
+                                        display: inline-block;
+                                        margin-top: Rem(16,em);
                                         text-decoration: none;
                                         color: $red-color;
                                 }
+                        
                         }
                         
                         &>*+*{
