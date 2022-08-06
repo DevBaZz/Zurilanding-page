@@ -283,11 +283,10 @@ footer address {
 
 body {
   background-color: #fffdf5;
+  font-family: "graphix";
+  padding-inline: 0.625em;
 }
 
-nav {
-  padding-inline: 1rem;
-}
 nav .enroll-now {
   width: clamp(5rem, 100%, 10.625rem);
 }
@@ -300,19 +299,38 @@ nav .nav-content {
   display: flex;
 }
 .hero-1-c .div-girl {
+  padding-top: 1em;
   flex-basis: 25%;
   max-width: 25%;
+  mix-blend-mode: multiply;
+}
+.hero-1-c .div-girl img {
+  width: 100%;
 }
 .hero-1-c .div-guy {
+  padding-top: 1em;
   flex-basis: 25%;
   max-width: 25%;
+  mix-blend-mode: multiply;
+}
+.hero-1-c .div-guy img {
+  width: 100%;
 }
 .hero-1-c .div {
-  flex-grow: 1;
+  text-align: center;
   flex-basis: 50%;
 }
 .hero-1-c .div h1 {
-  font-size: 3.0625rem;
+  font-size: 2.875rem;
+  line-height: 110%;
+}
+.hero-1-c .div h6 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.hero-1-c .hero-line {
+  display: flex;
+  justify-content: end;
 }
 
 .content-container {
