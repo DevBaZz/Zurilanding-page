@@ -286,51 +286,110 @@ body {
   font-family: "graphix";
   padding-inline: 0.625em;
 }
+body > * + * {
+  margin-top: 2.25em;
+}
 
+nav {
+  padding-block: 0.875em;
+}
+nav .c-logo {
+  width: clamp(6.25rem, 100%, 18.75rem);
+}
+nav .navlist {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+nav .navlist li {
+  list-style: none;
+}
+nav .navlist li a {
+  text-decoration: none;
+  color: #514949;
+}
 nav .enroll-now {
   width: clamp(5rem, 100%, 10.625rem);
+}
+nav .enroll-now:hover {
+  cursor: pointer;
 }
 nav .nav-content {
   display: flex;
   justify-content: space-between;
 }
 
-.hero-1-c {
+.hero-1 {
+  border: solid rgba(0, 0, 0, 0.122);
+  border-width: 0 0 0.0625rem 0;
+}
+.hero-1 .hero-1-c {
   display: flex;
+  position: relative;
 }
-.hero-1-c .div-girl {
+.hero-1 .hero-1-c .male-face {
+  position: absolute;
+  inset: 60% 100% 20% 20%;
+  width: clamp(1.875rem, 100%, 4.25rem);
+}
+.hero-1 .hero-1-c header > * + * {
+  padding-top: 0.625rem;
+}
+.hero-1 .hero-1-c .div-girl {
   padding-top: 1em;
   flex-basis: 25%;
   max-width: 25%;
   mix-blend-mode: multiply;
 }
-.hero-1-c .div-girl img {
+.hero-1 .hero-1-c .div-girl img {
   width: 100%;
 }
-.hero-1-c .div-guy {
+.hero-1 .hero-1-c .div-guy {
   padding-top: 1em;
   flex-basis: 25%;
   max-width: 25%;
   mix-blend-mode: multiply;
 }
-.hero-1-c .div-guy img {
+.hero-1 .hero-1-c .div-guy img {
   width: 100%;
 }
-.hero-1-c .div {
+.hero-1 .hero-1-c .div {
   text-align: center;
   flex-basis: 50%;
 }
-.hero-1-c .div h1 {
+.hero-1 .hero-1-c .div h1 {
   font-size: 2.875rem;
   line-height: 110%;
 }
-.hero-1-c .div h6 {
+.hero-1 .hero-1-c .div h6 {
   font-size: 1.125rem;
   font-weight: 400;
 }
-.hero-1-c .hero-line {
+.hero-1 .hero-1-c .hero-line {
   display: flex;
   justify-content: end;
+}
+
+.sub {
+  border: solid rgba(0, 0, 0, 0.122);
+  border-width: 0 0 0.0625rem 0;
+}
+.sub .flex .div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub .flex .div > img {
+  mix-blend-mode: multiply;
+}
+.sub .flex .div:nth-child(1) {
+  text-align: left;
+}
+.sub .flex .div:nth-child(3) {
+  text-align: right;
+}
+.sub .flex > * + * {
+  flex-basis: 30%;
 }
 
 .content-container {
