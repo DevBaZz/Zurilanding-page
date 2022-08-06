@@ -129,13 +129,14 @@ padding-top: Rem(10);
                 justify-content: space-between;
                 align-items: center;
                 .text-l{
-                        font-size: Rem(20);
+                        font-size: Rem(24);
                         font-weight: 600;
                         line-height: 130%;
                         text-transform: uppercase;
+                        letter-spacing: 0.009em;
                 }
                 .text-r{
-                        font-size: Rem(20);
+                        font-size: Rem(24);
                         font-weight: 400;
                         line-height: 130%;
                         a{
@@ -163,5 +164,48 @@ padding-top: Rem(10);
                                 width: Rem(200);
                         }
                 }
+        }
+}
+.why-z{
+        .content-container-s{
+                display: flex;
+        }
+        .detail-1{
+                h3{
+                        font-size: Rem(38);
+                        letter-spacing: 0.009em;
+                        line-height: 114%;
+                }
+                h6{
+                        font-size: Rem(24);
+                }
+                arrow{
+                        display: flex;
+                        justify-content: flex-end;
+                }
+                flex-basis: 58%;
+                max-width: 58%;
+        }
+        .detail-2{
+                &>.img>img{
+                        mix-blend-mode: multiply;
+                        aspect-ratio: 1/1;
+                        margin-left: auto;
+display: block;
+                        max-width: Rem(200);
+                }
+                flex-basis: 42%;
+                max-width: 42%;
+                text-align: right;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+
+        }
+}
+.why-2{
+        .card{
+                
         }
 }
