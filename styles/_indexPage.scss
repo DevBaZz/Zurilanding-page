@@ -9,8 +9,8 @@ body{
         }
 }
 .hero{
-       padding-inline: Rem(10);
-       padding-block: Rem(69);
+       padding-inline: Rem(10,em);
+       padding-block: Rem(69,em);
        background-image: url("https://zuri.team/img/hero-bg.svg");
        background-repeat: no-repeat;
        background-position: 0% 0%;
@@ -28,7 +28,7 @@ body{
         }
         .content-wrapper{
                 &> * + * {
-                        margin-top: Rem(36);
+                        margin-top: Rem(36,em);
                 }
 
         h1{
@@ -44,7 +44,7 @@ body{
 
         }
         .cta-container{
-                margin-top: Rem(92);
+                margin-top: Rem(92,em);
         }
         .cta{
                 text-decoration: none;
@@ -74,6 +74,7 @@ body{
                         border: Rem(1.2,em) solid $red-color;
                         color: $red-color;
                         background-color: rgba(0, 0, 0, 0);
+                        transition: all 300ms ease-in;
                 }
         }
         }
@@ -81,3 +82,52 @@ body{
 
 
 }
+
+.team{
+        text-align: center;
+        padding-top: Rem(141,em);
+        padding-inline: Rem(10,em);
+        .wrapper{
+                h6{
+                        font-size: Rem(14);
+                        font-weight: 400;
+                }
+                #wecater{
+                        color: $color-h;
+                        font-weight: 400;
+                        font-size: Rem(24);
+                }
+                padding-bottom: Rem(76,em);
+        }
+
+        .flex-container{
+                display: flex;
+                gap: Rem(30,em);
+                .card{
+                        background-color: $flex-card;
+                        padding: Rem(61,em) Rem(47,em) Rem(82,em) Rem(36,em);
+                        img{
+                                width: clamp(Rem(20), 100%, Rem(108));
+                        }
+                        .content{
+                                text-align: left;
+
+                                p{
+                                        font-size: Rem(16);
+                                        color: $color-h;
+                                        
+                                }
+
+                                a{
+                                        text-decoration: none;
+                                        color: $red-color;
+                                }
+                        }
+                        
+                        &>*+*{
+                                margin-top: Rem(48,em);
+                        }
+                }
+        }
+}
+

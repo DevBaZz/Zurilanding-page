@@ -4,3 +4,12 @@
         width: clamp(Rem(200), 100%, Rem($max-content-width));
         margin: auto;
 }
+
+
+.content-container-f{
+        width: clamp(Rem(200), 100%, Rem($max-content-width-f));
+        margin: auto;
+}
+h6{
+        color: $red-color;
+}

@@ -2,10 +2,12 @@ $color-h:#514949;
 $red-color:  hsla(3, 80%, 54%, 1);
 $white: hsla(0, 0%, 100%, 1);
 $section-bg:#F8E0DF;
+$flex-card: #FFFAFA;
 
 
 
 $max-content-width: 700;
+$max-content-width-f: 1240;
 
 
 @function Rem($value, $type:'rem'){
