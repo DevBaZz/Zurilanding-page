@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @font-face {
   font-family: graphix;
   src: url("./fonts/GraphikRegular.otf");
@@ -428,6 +429,9 @@ nav .nav-content {
   width: 12.5rem;
 }
 
+.why-z {
+  padding-top: 1.875em;
+}
 .why-z .content-container-s {
   display: flex;
 }
@@ -440,13 +444,20 @@ nav .nav-content {
   letter-spacing: 0.009em;
   line-height: 114%;
   font-weight: 500;
+  margin-top: 0.625em;
 }
 .why-z .detail-1 h6 {
   font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
-.why-z .detail-1 arrow {
+.why-z .detail-1 .arrow {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+.why-z .detail-1 .arrow img {
+  width: 12%;
+  margin-bottom: -1.5em;
 }
 .why-z .detail-2 {
   flex-basis: 42%;
@@ -513,6 +524,20 @@ nav .nav-content {
 }
 .why-2 .n2 .num, .why-2 .n3 .num, .why-2 .n4 .num, .why-2 .n5 .num, .why-2 .n6 .num {
   color: #1b1a20;
+}
+
+.get-you-started {
+  margin-top: 2.5em;
+  background-color: hsl(3deg, 80%, 54%);
+  color: white;
+}
+.get-you-started .colum:nth-child(1) {
+  flex-basis: 41%;
+  max-width: 41%;
+}
+.get-you-started .colum:nth-child(2) {
+  max-width: 58%;
+  flex-basis: 58%;
 }
 
 .content-container {

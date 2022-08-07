@@ -1,5 +1,5 @@
 @use  './abstract' as *;
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 body.new{
         background-color: #fffdf5;
@@ -168,6 +168,7 @@ padding-top: Rem(10);
         }
 }
 .why-z{
+        padding-top: Rem(30,em);
         .content-container-s{
                 display: flex;
         }
@@ -178,13 +179,22 @@ padding-top: Rem(10);
                         letter-spacing: 0.009em;
                         line-height: 114%;
                         font-weight: 500;
+                        margin-top: Rem(10,em);
                 }
                 h6{
                         font-size: Rem(24);
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 400;
+
                 }
-                arrow{
-                        display: flex;
-                        justify-content: flex-end;
+                .arrow{
+                       display: flex;
+                       justify-content: center;
+                       img{
+                        width: 12%;
+                        margin-bottom: -#{Rem(24,em)};
+                       }
+
                 }
                 flex-basis: 58%;
                 max-width: 58%;
@@ -263,5 +273,19 @@ display: block;
                 }
 
 
+        }
+}
+
+.get-you-started{
+        margin-top: Rem(40,em);
+        background-color: $red-color;
+        color: white;
+        .colum:nth-child(1){
+                flex-basis: 41%;
+                max-width: 41%;
+        }
+        .colum:nth-child(2){
+                max-width: 58%;
+                flex-basis: 58%;
         }
 }
