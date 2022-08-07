@@ -134,6 +134,7 @@ padding-top: Rem(10);
                         line-height: 130%;
                         text-transform: uppercase;
                         letter-spacing: 0.009em;
+                        font-weight: 500;
                 }
                 .text-r{
                         font-size: Rem(24);
@@ -171,10 +172,12 @@ padding-top: Rem(10);
                 display: flex;
         }
         .detail-1{
+               
                 h3{
-                        font-size: Rem(38);
+                        font-size: Rem(28);
                         letter-spacing: 0.009em;
                         line-height: 114%;
+                        font-weight: 500;
                 }
                 h6{
                         font-size: Rem(24);
@@ -235,7 +238,7 @@ display: block;
                 h4{
                         font-size: Rem(36);
                         font-weight: 500;
-                        margin-top: Rem(26,em);
+                        margin-top: Rem(18,em);
                 }
                 img{
                         float: right;
@@ -246,7 +249,7 @@ display: block;
                 .dd{
                         font-size: Rem(18);
                         line-height: 130%;
-                        margin-top: Rem(26,em);
+                        margin-top: Rem(22,em);
 
                 }
                 padding: Rem(48,em) Rem(38,em) Rem(82,em) Rem(40,em);
