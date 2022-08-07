@@ -205,7 +205,59 @@ display: block;
         }
 }
 .why-2{
-        .card{
+        margin-top: Rem(40,em);
+        font-family: 'graphix';
+        .flex{
+                flex-wrap: wrap;
                 
+        }
+    
+
+        .card{
+                margin-top: Rem(24,em);
+                margin-left: Rem(24,em);
+                flex-basis: 30%;
+                border-radius: Rem(18,em);
+                color: white;
+                transition: all 100ms ease-in  ;
+                box-shadow: 0 Rem(11) Rem(22) rgba(231,51,43,.1);
+&:hover{
+        transform: translateY(-#{Rem(20,em)});
+        transition: all 300ms ease-out;
+}
+                .num{
+                        font-size: Rem(60);
+                        color: white;
+                        font-weight: 800;
+
+                }
+
+                h4{
+                        font-size: Rem(36);
+                        font-weight: 500;
+                        margin-top: Rem(26,em);
+                }
+                img{
+                        float: right;
+                        margin-top:  -#{Rem(48,em)};
+                        margin-right:  -#{Rem(39,em)};
+                }
+                .dd{
+                        font-size: Rem(18);
+                        line-height: 130%;
+                        margin-top: Rem(26,em);
+
+                }
+                padding: Rem(48,em) Rem(38,em) Rem(82,em) Rem(40,em);
+                background-color: $red-color;
+        }
+        .n2,.n3,.n4,.n5,.n6{
+                background-color: white;
+                color: $dark-color;
+                .num{
+                        color: $dark-color;
+                }
+
+
         }
 }

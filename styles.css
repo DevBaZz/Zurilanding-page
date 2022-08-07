@@ -392,13 +392,14 @@ nav .nav-content {
   align-items: center;
 }
 .sub .flex .text-l {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 130%;
   text-transform: uppercase;
+  letter-spacing: 0.009em;
 }
 .sub .flex .text-r {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 130%;
 }
@@ -424,6 +425,91 @@ nav .nav-content {
 }
 .sub .flex > * + * > img {
   width: 12.5rem;
+}
+
+.why-z .content-container-s {
+  display: flex;
+}
+.why-z .detail-1 {
+  flex-basis: 58%;
+  max-width: 58%;
+}
+.why-z .detail-1 h3 {
+  font-size: 2.375rem;
+  letter-spacing: 0.009em;
+  line-height: 114%;
+}
+.why-z .detail-1 h6 {
+  font-size: 1.5rem;
+}
+.why-z .detail-1 arrow {
+  display: flex;
+  justify-content: flex-end;
+}
+.why-z .detail-2 {
+  flex-basis: 42%;
+  max-width: 42%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.why-z .detail-2 > .img > img {
+  mix-blend-mode: multiply;
+  aspect-ratio: 1/1;
+  margin-left: auto;
+  display: block;
+  max-width: 12.5rem;
+}
+
+.why-2 {
+  margin-top: 2.5em;
+  font-family: "graphix";
+}
+.why-2 .flex {
+  flex-wrap: wrap;
+}
+.why-2 .card {
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  flex-basis: 30%;
+  border-radius: 1.125em;
+  color: white;
+  transition: all 100ms ease-in;
+  box-shadow: 0 0.6875rem 1.375rem rgba(231, 51, 43, 0.1);
+  padding: 3em 2.375em 5.125em 2.5em;
+  background-color: hsl(3deg, 80%, 54%);
+}
+.why-2 .card:hover {
+  transform: translateY(-1.25em);
+  transition: all 300ms ease-out;
+}
+.why-2 .card .num {
+  font-size: 3.75rem;
+  color: white;
+  font-weight: 800;
+}
+.why-2 .card h4 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-top: 1.625em;
+}
+.why-2 .card img {
+  float: right;
+  margin-top: -3em;
+  margin-right: -2.4375em;
+}
+.why-2 .card .dd {
+  font-size: 1.125rem;
+  line-height: 130%;
+  margin-top: 1.625em;
+}
+.why-2 .n2, .why-2 .n3, .why-2 .n4, .why-2 .n5, .why-2 .n6 {
+  background-color: white;
+  color: #1b1a20;
+}
+.why-2 .n2 .num, .why-2 .n3 .num, .why-2 .n4 .num, .why-2 .n5 .num, .why-2 .n6 .num {
+  color: #1b1a20;
 }
 
 .content-container {
