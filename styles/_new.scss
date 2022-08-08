@@ -398,8 +398,19 @@ nav {
                 gap: Rem(20, em);
 
                 .card {
-                        img{
-                                width: 30%;
+                        .div-img{
+                                display: block;
+                                margin-top: Rem(20,em);
+                                img{
+                                        width: 40%;
+                                }
+                        }
+                        h4{
+                                font-size: Rem(20);
+                                font-weight: bold;
+                        }
+                        p{
+                                margin-top: Rem(40,em);
                         }
                         flex-basis: 32%;
                         background-color: white;
@@ -407,6 +418,14 @@ nav {
                         padding: Rem(40, em);
                         box-shadow: 0px Rem(11) Rem(22) rgba(163, 31, 10, 0.18);
                         border-radius: Rem(42,em);
+                }
+                .be{
+                        .div-img{
+                                
+                                img{
+                                        width: 50%;
+                                }
+                        }
                 }
         }
 }
