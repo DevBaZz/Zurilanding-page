@@ -664,6 +664,20 @@ nav .nav-content {
   border-radius: 5.4375rem;
 }
 
+.program-st .dd {
+  text-align: center;
+}
+.program-st .dd h3 {
+  font-size: 2.5rem;
+}
+.program-st .dd h6 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.program-st .dd p {
+  padding-top: 1.375rem;
+  padding-bottom: 3.75em;
+}
 .program-st ul {
   padding-left: 0.9375em;
 }
@@ -680,14 +694,42 @@ nav .nav-content {
   background-color: #1b1a20;
   padding: 4em 3em;
 }
+.program-st .flex .colum h4 {
+  font-size: 1.125rem;
+}
+.program-st .flex .colum header h3 {
+  font-size: 2.1875rem;
+}
 .program-st .flex .colum:nth-child(1) {
   background-image: url("../img/hour1.png");
   background-repeat: no-repeat;
   background-size: 20%;
   background-position: 88% 92%;
 }
+.program-st .flex .colum:nth-child(2) {
+  background-image: url("../img/time1.png");
+  background-repeat: no-repeat;
+  background-size: 32%;
+  background-position: 88% 92%;
+}
 .program-st .flex .colum > * + * {
   margin-top: 1.25em;
+}
+
+.n-footer .nn-footer {
+  background-color: hsl(3deg, 80%, 54%);
+  color: white;
+  text-align: center;
+  padding: 7.25em 10.6875em;
+  border-radius: 2.625em;
+}
+.n-footer .nn-footer h2 {
+  font-size: 3.4375rem;
+  letter-spacing: 0.00938em;
+  line-height: 130%;
+}
+.n-footer .nn-footer h3 {
+  font-weight: 500;
 }
 
 .content-container {

@@ -477,6 +477,20 @@ nav {
 }
 
 .program-st{
+        .dd{
+                text-align: center;
+                h3{
+                        font-size: Rem(40);
+                }
+                h6{
+                        font-size: Rem(24);
+                        font-weight: 500;
+                }
+                p{
+                        padding-top: Rem(22);
+                        padding-bottom: Rem(60,em);
+                }
+        }
         ul{
                 padding-left: Rem(15,em);
         }
@@ -486,10 +500,24 @@ nav {
                 gap: Rem(24,em);
                 justify-content: center;
                 .colum{
+                        h4{
+                                font-size: Rem(18);
+                        }
+                        header{
+                                h3{
+                                        font-size: Rem(35);
+                                }
+                        }
                         &:nth-child(1){
                                 background-image: url('../img/hour1.png');
                                 background-repeat: no-repeat;
                                 background-size: 20%;
+                                background-position: 88% 92%;
+                        }
+                        &:nth-child(2){
+                                background-image: url('../img/time1.png');
+                                background-repeat: no-repeat;
+                                background-size: 32%;
                                 background-position: 88% 92%;
                         }
                         &>*+* {
@@ -502,5 +530,23 @@ nav {
                         padding: Rem(64,em) Rem(48,em);
                 }
 
+        }
+}
+
+.n-footer{
+        .nn-footer{
+                background-color: $red-color;
+                color: white;
+                text-align: center;
+                padding: Rem(116,em) Rem(171,em);
+                border-radius: Rem(42,em);
+                h2{
+                        font-size: Rem(55);
+                        letter-spacing: 0.00938em;
+                        line-height: 130%;
+                }
+                h3{
+                        font-weight: 500;
+                }
         }
 }
