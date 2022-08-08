@@ -635,6 +635,15 @@ nav .nav-content {
 .scope .scope-s .be .div-img img {
   width: 50%;
 }
+.scope .scope-s .do .div-img img {
+  width: 70%;
+}
+.scope .scope-s .fs .div-img img {
+  width: 70%;
+}
+.scope .scope-s .fw .div-img img {
+  width: 70%;
+}
 
 .content-container {
   width: clamp(12.5rem, 100%, 43.75rem);
