@@ -457,6 +457,9 @@ nav {
         .en{
                 display: flex;
                 justify-content: center;
+                border: solid rgba(0, 0, 0, 0.122);
+                border-width: 0 0 Rem(1) 0;
+                padding-bottom: Rem(40,em);
                 .enroll-c {
                         margin-top: Rem(40, em);
 
@@ -470,5 +473,34 @@ nav {
                                 border-radius: Rem(87);
                         }
                 }
+        }
+}
+
+.program-st{
+        ul{
+                padding-left: Rem(15,em);
+        }
+        .flex{
+                padding-block: Rem(30,em);
+                flex-wrap: wrap;
+                gap: Rem(24,em);
+                justify-content: center;
+                .colum{
+                        &:nth-child(1){
+                                background-image: url('../img/hour1.png');
+                                background-repeat: no-repeat;
+                                background-size: 20%;
+                                background-position: 88% 92%;
+                        }
+                        &>*+* {
+                                margin-top: Rem(20,em);
+                        }
+                        border-radius: Rem(64,em);
+                        flex-basis: 45%;
+                        color: white;
+                        background-color: #1b1a20;
+                        padding: Rem(64,em) Rem(48,em);
+                }
+
         }
 }

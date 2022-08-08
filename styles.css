@@ -647,6 +647,9 @@ nav .nav-content {
 .scope .en {
   display: flex;
   justify-content: center;
+  border: solid rgba(0, 0, 0, 0.122);
+  border-width: 0 0 0.0625rem 0;
+  padding-bottom: 2.5em;
 }
 .scope .en .enroll-c {
   margin-top: 2.5em;
@@ -659,6 +662,32 @@ nav .nav-content {
   padding-block: 0.875em;
   padding-inline: 1.875em;
   border-radius: 5.4375rem;
+}
+
+.program-st ul {
+  padding-left: 0.9375em;
+}
+.program-st .flex {
+  padding-block: 1.875em;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+.program-st .flex .colum {
+  border-radius: 4em;
+  flex-basis: 45%;
+  color: white;
+  background-color: #1b1a20;
+  padding: 4em 3em;
+}
+.program-st .flex .colum:nth-child(1) {
+  background-image: url("../img/hour1.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 88% 92%;
+}
+.program-st .flex .colum > * + * {
+  margin-top: 1.25em;
 }
 
 .content-container {
