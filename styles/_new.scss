@@ -453,4 +453,22 @@ nav {
                 }
                 
         }
+
+        .en{
+                display: flex;
+                justify-content: center;
+                .enroll-c {
+                        margin-top: Rem(40, em);
+
+                        a {
+                                display: inline-block;
+                                text-decoration: none;
+                                color: white;
+                                background-color: $red-color;
+                                padding-block: Rem(14, em);
+                                padding-inline: Rem(30, em);
+                                border-radius: Rem(87);
+                        }
+                }
+        }
 }

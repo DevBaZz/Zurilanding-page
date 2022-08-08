@@ -644,6 +644,22 @@ nav .nav-content {
 .scope .scope-s .fw .div-img img {
   width: 70%;
 }
+.scope .en {
+  display: flex;
+  justify-content: center;
+}
+.scope .en .enroll-c {
+  margin-top: 2.5em;
+}
+.scope .en .enroll-c a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(3deg, 80%, 54%);
+  padding-block: 0.875em;
+  padding-inline: 1.875em;
+  border-radius: 5.4375rem;
+}
 
 .content-container {
   width: clamp(12.5rem, 100%, 43.75rem);
