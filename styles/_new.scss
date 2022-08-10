@@ -534,19 +534,32 @@ nav {
 }
 
 .n-footer{
+        margin-top: Rem(45,em);
         .nn-footer{
+                position: relative;
                 background-color: $red-color;
                 color: white;
                 text-align: center;
-                padding: Rem(116,em) Rem(171,em);
-                border-radius: Rem(42,em);
+               padding-block: Rem(170,em);
+                border-radius: Rem(38,em);
+                background-image: url('../img/cc1.png');
+                background-repeat: no-repeat;
+                background-position: 100% 0%;
+                background-size: 14%;
                 h2{
-                        font-size: Rem(55);
+                        font-size: Rem(50);
                         letter-spacing: 0.00938em;
                         line-height: 130%;
                 }
                 h3{
                         font-weight: 500;
                 }
+
+                .img1{
+                        position: absolute;
+                        
+
+                }
         }
+        
 }

@@ -716,20 +716,31 @@ nav .nav-content {
   margin-top: 1.25em;
 }
 
+.n-footer {
+  margin-top: 2.8125em;
+}
 .n-footer .nn-footer {
+  position: relative;
   background-color: hsl(3deg, 80%, 54%);
   color: white;
   text-align: center;
-  padding: 7.25em 10.6875em;
-  border-radius: 2.625em;
+  padding-block: 10.625em;
+  border-radius: 2.375em;
+  background-image: url("../img/cc1.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: 14%;
 }
 .n-footer .nn-footer h2 {
-  font-size: 3.4375rem;
+  font-size: 3.125rem;
   letter-spacing: 0.00938em;
   line-height: 130%;
 }
 .n-footer .nn-footer h3 {
   font-weight: 500;
+}
+.n-footer .nn-footer .img1 {
+  position: absolute;
 }
 
 .content-container {
