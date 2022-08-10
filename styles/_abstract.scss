@@ -6,6 +6,12 @@ $flex-card: #FFFAFA;
 $dark-color: #1b1a20;
 $shadow-p:  0px Rem(11) Rem(22) rgba(163, 31, 10, 0.18);
 
+$break-points : (
+        'sd': 410px,
+        'md': 710px,
+        'ld': 1140px
+
+);
 
 
 $max-content-width: 700;
@@ -36,11 +42,22 @@ $font-size: (
 
 
 
+
+
 @mixin font1{
         font-size: (0.438rem, 3.01vw, 21rem);
 }
 
 
+
 .flex{
         display: flex;
+}
+
+@mixin mediaB ($value) {
+        @media (max-width: $value) {
+                @content;
+                
+        }
+        
 }
