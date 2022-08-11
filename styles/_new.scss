@@ -284,12 +284,17 @@ nav {
 
         .flex {
                 flex-wrap: wrap;
+                justify-content: center;
         }
 
         .card {
+                
                 @include mediaB(950px){
                         flex-basis: 45%;
-                        margin-left: 0;
+                        &:nth-child(odd){
+                                margin-left: 0;
+                        }
+                        
                 }
                 @include mediaB(600px){
                         flex-basis: 100%;

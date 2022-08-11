@@ -525,6 +525,7 @@ nav .nav-content {
 }
 .why-2 .flex {
   flex-wrap: wrap;
+  justify-content: center;
 }
 .why-2 .card {
   margin-top: 1.5em;
@@ -540,6 +541,8 @@ nav .nav-content {
 @media (max-width: 950px) {
   .why-2 .card {
     flex-basis: 45%;
+  }
+  .why-2 .card:nth-child(odd) {
     margin-left: 0;
   }
 }
