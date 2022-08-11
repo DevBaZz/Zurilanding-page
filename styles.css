@@ -348,8 +348,13 @@ nav .nav-content {
 }
 .hero-1 .hero-1-c .male-face {
   position: absolute;
-  inset: 60% 100% 20% 20%;
+  inset: 60% 20%;
   width: clamp(1.875rem, 100%, 4.25rem);
+}
+@media (max-width: 1199px) {
+  .hero-1 .hero-1-c .male-face {
+    inset: 83% 26%;
+  }
 }
 .hero-1 .hero-1-c header > * + * {
   padding-top: 0.625rem;
@@ -772,9 +777,19 @@ nav .nav-content {
   position: absolute;
 }
 
+@media (max-width: 1199px) {
+  :root {
+    font-size: 12px;
+  }
+}
 @media (max-width: 700px) {
   :root {
     font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  :root {
+    font-size: 8px;
   }
 }
 .content-container {

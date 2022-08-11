@@ -82,8 +82,11 @@ nav {
 
                 .male-face {
                         position: absolute;
-                        inset: 60% 100% 20% 20%;
+                        inset: 60%  20%;
                         width: clamp(Rem(30), 100%, Rem(68));
+                        @include mediaB ( $fbp){
+                                inset: 83% 26%;
+                        }
                 }
 
                 header>*+* {
@@ -100,7 +103,7 @@ nav {
                                 max-width: 70%;
                                 display: block;
                                 margin: auto;
-                             
+                        
                         }
                         
 
@@ -590,9 +593,20 @@ nav {
 
 
 
+@include  mediaB(1199px){
+        :root{
+                font-size: 12px;
+        }
+}
+
 @include  mediaB(700px){
         :root{
                 font-size: 10px;
+        }
+}
+@include  mediaB(450px){
+        :root{
+                font-size: 8px;
         }
 }
 
