@@ -444,10 +444,25 @@ nav .nav-content {
   letter-spacing: 0.009em;
   font-weight: 500;
 }
+@media (max-width: 950px) {
+  .sub .flex .text-l {
+    font-size: 1.25rem;
+  }
+}
 .sub .flex .text-r {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 130%;
+}
+@media (max-width: 950px) {
+  .sub .flex .text-r {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 680px) {
+  .sub .flex .text-r {
+    font-size: 1.0625rem;
+  }
 }
 .sub .flex .text-r a {
   color: #43b97f;

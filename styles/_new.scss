@@ -178,6 +178,9 @@ nav {
                 align-items: center;
 
                 .text-l {
+                        @include mediaB(950px){
+                                font-size: Rem(20);
+                        }
                         font-size: Rem(24);
                         font-weight: 600;
                         line-height: 130%;
@@ -187,9 +190,15 @@ nav {
                 }
 
                 .text-r {
-                        font-size: Rem(20);
+                        font-size: Rem(18);
                         font-weight: 400;
                         line-height: 130%;
+                        @include mediaB(950px){
+                                font-size: Rem(20);
+                        }
+                        @include mediaB(680px){
+                                font-size: Rem(17);
+                        }
 
                         a {
                                 color: #43b97f;
