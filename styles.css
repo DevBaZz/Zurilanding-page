@@ -412,12 +412,19 @@ nav .nav-content {
   justify-content: end;
   margin-bottom: 1.75em;
 }
+.hero-1 .hero-1-c .hero-line img {
+  width: 30%;
+  margin-right: 2.5625em;
+}
 .hero-1 .hero-1-c .hero-line2 {
   display: flex;
   justify-content: flex-end;
-  width: clamp(6.25rem, 100%, 12.5rem);
+  width: clamp(3.125rem, 100%, 15.625rem);
   margin: auto;
   padding-bottom: 2.125em;
+}
+.hero-1 .hero-1-c .hero-line2 img {
+  width: clamp(3.125rem, 100%, 6.25rem);
 }
 
 .sub {
@@ -529,6 +536,18 @@ nav .nav-content {
   box-shadow: 0 0.6875rem 1.375rem rgba(231, 51, 43, 0.1);
   padding: 3em 2.375em 5.125em 2.5em;
   background-color: hsl(3deg, 80%, 54%);
+}
+@media (max-width: 950px) {
+  .why-2 .card {
+    flex-basis: 45%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .why-2 .card {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
 }
 .why-2 .card:hover {
   transform: translateY(-1.25em);
@@ -779,17 +798,27 @@ nav .nav-content {
 
 @media (max-width: 1199px) {
   :root {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (max-width: 752px) {
   :root {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media (max-width: 450px) {
   :root {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  :root {
     font-size: 8px;
+  }
+}
+@media (max-width: 250px) {
+  :root {
+    font-size: 6px;
   }
 }
 .content-container {

@@ -149,14 +149,21 @@ nav {
                         display: flex;
                         justify-content: end;
                         margin-bottom: Rem(28, em);
+                        img{
+                                width: 30%;
+                                margin-right: Rem(41,em);
+                        }
                 }
 
                 .hero-line2 {
                         display: flex;
                         justify-content: flex-end;
-                        width: clamp(Rem(100), 100%, Rem(200));
+                        width: clamp(Rem(50), 100%, Rem(250));
                         margin: auto;
                         padding-bottom: Rem(34, em);
+                        img{
+                                width: clamp(Rem(50), 100%, Rem(100));
+                        }
                 }
         }
 }
@@ -280,6 +287,14 @@ nav {
         }
 
         .card {
+                @include mediaB(950px){
+                        flex-basis: 45%;
+                        margin-left: 0;
+                }
+                @include mediaB(600px){
+                        flex-basis: 100%;
+                        margin-left: 0;
+                }
                 margin-top: Rem(24, em);
                 margin-left: Rem(24, em);
                 flex-basis: 30%;
@@ -595,18 +610,28 @@ nav {
 
 @include  mediaB(1199px){
         :root{
-                font-size: 12px;
+                font-size: 14px;
         }
 }
 
 @include  mediaB(752px){
         :root{
-                font-size: 10px;
+                font-size: 12px;
         }
 }
 @include  mediaB(450px){
         :root{
+                font-size: 10px;
+        }
+}
+@include  mediaB(350px){
+        :root{
                 font-size: 8px;
+        }
+}
+@include  mediaB(250px){
+        :root{
+                font-size: 6px;
         }
 }
 
