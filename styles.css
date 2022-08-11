@@ -735,13 +735,13 @@ nav .nav-content {
   font-size: 2.1875rem;
 }
 .program-st .flex .colum:nth-child(1) {
-  background-image: url("../img/hour1.png");
+  background-image: url("./img/hour1.png");
   background-repeat: no-repeat;
   background-size: 20%;
   background-position: 88% 92%;
 }
 .program-st .flex .colum:nth-child(2) {
-  background-image: url("../img/time1.png");
+  background-image: url("./img/time1.png");
   background-repeat: no-repeat;
   background-size: 32%;
   background-position: 88% 92%;
@@ -760,7 +760,7 @@ nav .nav-content {
   text-align: center;
   padding-block: 10.625em;
   border-radius: 2.375em;
-  background-image: url("../img/cc1.png");
+  background-image: url("./img/cc1.png");
   background-repeat: no-repeat;
   background-position: 100% 0%;
   background-size: 14%;
