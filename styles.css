@@ -436,6 +436,14 @@ nav .nav-content {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 950px) {
+  .sub .flex {
+    flex-direction: column;
+  }
+}
+.sub .flex .div {
+  flex-basis: 32%;
+}
 .sub .flex .text-l {
   font-size: 1.5rem;
   font-weight: 600;

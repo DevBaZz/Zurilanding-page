@@ -176,6 +176,12 @@ nav {
                 padding-top: Rem(20, em);
                 justify-content: space-between;
                 align-items: center;
+                @include mediaB(950px){
+                        flex-direction: column;
+                }
+                .div{
+                        flex-basis: 32%;
+                }
 
                 .text-l {
                         @include mediaB(950px){
