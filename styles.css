@@ -190,11 +190,17 @@ body .red {
   display: flex;
   gap: 1.875em;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .team .flex-container .card {
   background-color: #FFFAFA;
   padding: 3.8125em 2.9375em 5.125em 2.25em;
-  flex-basis: 33%;
+  flex-basis: 30%;
+}
+@media (max-width: 500px) {
+  .team .flex-container .card {
+    flex-basis: 90%;
+  }
 }
 .team .flex-container .card img {
   width: clamp(1.25rem, 100%, 7.5rem);

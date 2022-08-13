@@ -115,11 +115,17 @@ body{
                 gap: Rem(30,em);
                 
                 justify-content: center;
+                flex-wrap: wrap;
+                
                 
                 .card{
                         background-color: $flex-card;
                         padding: Rem(61,em) Rem(47,em) Rem(82,em) Rem(36,em);
-                        flex-basis: 33%;
+                        flex-basis: 30%;
+                        @include mediaB(500px){
+                                flex-basis: 90%;
+                        }
+                        
 
                         img{
                                 width: clamp(Rem(20), 100%, Rem(120));
