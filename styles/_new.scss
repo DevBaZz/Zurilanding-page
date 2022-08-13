@@ -579,8 +579,16 @@ nav {
 }
 
 .program-st{
+        background-image: url('..//img/move.svg');
+                background-repeat: no-repeat;
+                background-position: 0% 50%;
+                background-size: 12%;
         .dd{
                 text-align: center;
+                background-image: url('./img/Star1.svg');
+                background-repeat: no-repeat;
+                background-position: 87% 14%;
+                background-size: 10%;
                 h3{
                         font-size: Rem(40);
                 }
@@ -601,6 +609,7 @@ nav {
                 flex-wrap: wrap;
                 gap: Rem(24,em);
                 justify-content: center;
+                
                 .colum{
                         h4{
                                 font-size: Rem(18);

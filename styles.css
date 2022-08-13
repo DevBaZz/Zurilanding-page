@@ -792,8 +792,18 @@ nav .nav-content {
   border-radius: 5.4375rem;
 }
 
+.program-st {
+  background-image: url("..//img/move.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 12%;
+}
 .program-st .dd {
   text-align: center;
+  background-image: url("./img/Star1.svg");
+  background-repeat: no-repeat;
+  background-position: 87% 14%;
+  background-size: 10%;
 }
 .program-st .dd h3 {
   font-size: 2.5rem;
