@@ -337,6 +337,15 @@ nav .nav-content {
   padding-inline: 1.875em;
   border-radius: 5.4375rem;
 }
+.hero-1 .enroll-c a:hover {
+  background-color: #EC5C55;
+}
+.hero-1 .enroll-c a:active {
+  background-color: #8B1F1A;
+}
+.hero-1 .enroll-c a:focus-within {
+  border: none;
+}
 .hero-1 .hero-1-c {
   display: flex;
   position: relative;
@@ -423,7 +432,7 @@ nav .nav-content {
   margin: auto;
   padding-bottom: 2.125em;
 }
-.hero-1 .hero-1-c .hero-line2 img {
+.hero-1 .hero-1-c .hero-line2 lottie-player {
   width: clamp(3.125rem, 100%, 6.25rem);
 }
 
@@ -831,9 +840,9 @@ nav .nav-content {
   text-align: center;
   padding-block: 10.625em;
   border-radius: 2.375em;
-  background-image: url("./img/cc1.png"), url("./img/cc2.png"), url("./img/round.svg");
+  background-image: url("./img/cc1.png"), url("./img/cc2.png"), url("./img/round.svg"), url("./img/mains.png");
   background-repeat: no-repeat;
-  background-position: 100% 0%, 0% 100%, 12% 48%;
+  background-position: 100% 0%, 0% 100%, 12% 48%, 100% 100%;
   background-size: 14%, 14%, 16%;
 }
 .n-footer .nn-footer h2 {

@@ -42,6 +42,7 @@ nav {
 
                 &:hover {
                         cursor: pointer;
+
                 }
         }
 
@@ -66,6 +67,15 @@ nav {
                         padding-block: Rem(14, em);
                         padding-inline: Rem(30, em);
                         border-radius: Rem(87);
+                        &:hover{
+                                background-color: #EC5C55;
+                        }
+                        &:active{
+                                background-color: #8B1F1A;
+                        }
+                        &:focus-within{
+                                border: none;
+                        }
                 }
         }
 
@@ -161,7 +171,7 @@ nav {
                         width: clamp(Rem(50), 100%, Rem(250));
                         margin: auto;
                         padding-bottom: Rem(34, em);
-                        img{
+                        lottie-player{
                                 width: clamp(Rem(50), 100%, Rem(100));
                         }
                 }
@@ -624,9 +634,9 @@ nav {
                 text-align: center;
                padding-block: Rem(170,em);
                 border-radius: Rem(38,em);
-                background-image: url('./img/cc1.png'),url('./img/cc2.png'), url('./img/round.svg');
+                background-image: url('./img/cc1.png'),url('./img/cc2.png'), url('./img/round.svg'), url('./img/mains.png');
                 background-repeat: no-repeat;
-                background-position: 100% 0%, 0% 100%, 12% 48%;
+                background-position: 100% 0%, 0% 100%, 12% 48%, 100% 100%;
                 background-size: 14%, 14%, 16%;
                 h2{
                         font-size: Rem(50);
