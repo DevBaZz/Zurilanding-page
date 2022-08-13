@@ -412,7 +412,7 @@ nav .nav-content {
   justify-content: end;
   margin-bottom: 1.75em;
 }
-.hero-1 .hero-1-c .hero-line img {
+.hero-1 .hero-1-c .hero-line lottie-player {
   width: 30%;
   margin-right: 2.5625em;
 }
@@ -834,7 +834,7 @@ nav .nav-content {
   background-image: url("./img/cc1.png"), url("./img/cc2.png"), url("./img/round.svg");
   background-repeat: no-repeat;
   background-position: 100% 0%, 0% 100%, 12% 48%;
-  background-size: 10%, 10%, 16%;
+  background-size: 14%, 14%, 16%;
 }
 .n-footer .nn-footer h2 {
   font-size: 3.125rem;

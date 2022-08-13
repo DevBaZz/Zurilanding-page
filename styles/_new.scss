@@ -149,7 +149,7 @@ nav {
                         display: flex;
                         justify-content: end;
                         margin-bottom: Rem(28, em);
-                        img{
+                        lottie-player{
                                 width: 30%;
                                 margin-right: Rem(41,em);
                         }
@@ -627,7 +627,7 @@ nav {
                 background-image: url('./img/cc1.png'),url('./img/cc2.png'), url('./img/round.svg');
                 background-repeat: no-repeat;
                 background-position: 100% 0%, 0% 100%, 12% 48%;
-                background-size: 10%, 10%, 16%;
+                background-size: 14%, 14%, 16%;
                 h2{
                         font-size: Rem(50);
                         letter-spacing: 0.00938em;
