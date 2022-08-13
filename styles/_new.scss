@@ -178,6 +178,7 @@ nav {
                 align-items: center;
                 @include mediaB(950px){
                         flex-direction: column;
+                        
                 }
                 .div{
                         flex-basis: 32%;
@@ -186,6 +187,7 @@ nav {
                 .text-l {
                         @include mediaB(950px){
                                 font-size: Rem(20);
+                                text-align: center;
                         }
                         font-size: Rem(24);
                         font-weight: 600;
@@ -201,6 +203,8 @@ nav {
                         line-height: 130%;
                         @include mediaB(950px){
                                 font-size: Rem(20);
+                                text-align: center;
+                                padding-bottom: Rem(20,em);
                         }
                         @include mediaB(680px){
                                 font-size: Rem(17);
@@ -376,16 +380,27 @@ nav {
         background-color: $red-color;
         color: white;
         padding-block: Rem(46, em);
-
+.flex{
+        @include mediaB(950px){
+                flex-wrap: wrap-reverse;
+        }
+}
         .colum:nth-child(1) {
                 flex-basis: 41%;
                 max-width: 41%;
+                @include mediaB(830px){
+                        flex-basis: 100%;
+                        max-width: 100%;
+                        text-align: center;
+                }
 
                 .diva {
                         display: flex;
                         justify-content: flex-start;
                         margin-top: Rem(20, em);
-
+@include mediaB(830px){
+        justify-content: center;
+}
                         .aa {
                                 width: 70%;
                         }
@@ -427,11 +442,16 @@ nav {
         .colum:nth-child(2) {
                 max-width: 58%;
                 flex-basis: 58%;
+                @include mediaB(830px){
+                        flex-basis: 100%;
+                        max-width: 100%;
+                }
 
                 img {
                         width: 100%;
                 }
         }
+      
 }
 
 .scope {
@@ -604,10 +624,10 @@ nav {
                 text-align: center;
                padding-block: Rem(170,em);
                 border-radius: Rem(38,em);
-                background-image: url('./img/cc1.png');
+                background-image: url('./img/cc1.png'),url('./img/cc2.png'), url('./img/round.svg');
                 background-repeat: no-repeat;
-                background-position: 100% 0%;
-                background-size: 14%;
+                background-position: 100% 0%, 0% 100%, 12% 48%;
+                background-size: 10%, 10%, 16%;
                 h2{
                         font-size: Rem(50);
                         letter-spacing: 0.00938em;
@@ -615,13 +635,7 @@ nav {
                 }
                 h3{
                         font-weight: 500;
-                }
-
-                .img1{
-                        position: absolute;
-                        
-
-                }
+                }            
         }
         
 }
