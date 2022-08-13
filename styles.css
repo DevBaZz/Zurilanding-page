@@ -723,6 +723,7 @@ nav .nav-content {
 .scope .scope-s {
   flex-wrap: wrap;
   gap: 1.25em;
+  justify-content: center;
 }
 .scope .scope-s .card {
   flex-basis: 32%;
@@ -745,6 +746,19 @@ nav .nav-content {
 }
 .scope .scope-s .card p {
   margin-top: 2.5em;
+}
+@media (max-width: 880px) {
+  .scope .scope-s .card {
+    flex-basis: 45%;
+    max-width: 45%;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 450px) {
+  .scope .scope-s .card {
+    flex-basis: 90%;
+    max-width: 90%;
+  }
 }
 .scope .scope-s .be .div-img img {
   width: 50%;
@@ -829,6 +843,11 @@ nav .nav-content {
 .program-st .flex .colum > * + * {
   margin-top: 1.25em;
 }
+@media (max-width: 600px) {
+  .program-st .flex .colum {
+    flex-basis: 90%;
+  }
+}
 
 .n-footer {
   margin-top: 2.8125em;
@@ -849,6 +868,11 @@ nav .nav-content {
   font-size: 3.125rem;
   letter-spacing: 0.00938em;
   line-height: 130%;
+}
+@media (max-width: 600px) {
+  .n-footer .nn-footer h2 {
+    font-size: 1.875rem;
+  }
 }
 .n-footer .nn-footer h3 {
   font-weight: 500;

@@ -488,6 +488,7 @@ nav {
         .scope-s {
                 flex-wrap: wrap;
                 gap: Rem(20, em);
+                justify-content: center;
 
                 .card {
                         .div-img{
@@ -510,6 +511,15 @@ nav {
                         padding: Rem(40, em);
                         box-shadow: 0px Rem(11) Rem(22) rgba(163, 31, 10, 0.18);
                         border-radius: Rem(42,em);
+                        @include mediaB (880px){
+                                flex-basis: 45%;
+                                max-width: 45%;
+                                font-size: .8rem;
+                        }
+                        @include mediaB (450px){
+                                flex-basis: 90%;
+                                max-width: 90%;
+                        }
                 }
                 .be{
                         .div-img{
@@ -620,6 +630,9 @@ nav {
                         color: white;
                         background-color: #1b1a20;
                         padding: Rem(64,em) Rem(48,em);
+                        @include mediaB(600px){
+                                flex-basis: 90%;
+                        }
                 }
 
         }
@@ -642,6 +655,9 @@ nav {
                         font-size: Rem(50);
                         letter-spacing: 0.00938em;
                         line-height: 130%;
+                        @include mediaB(600px){
+                                font-size: Rem(30);
+                        }
                 }
                 h3{
                         font-weight: 500;
