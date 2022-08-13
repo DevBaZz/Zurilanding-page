@@ -793,7 +793,7 @@ nav .nav-content {
 }
 
 .program-st {
-  background-image: url("..//img/move.svg");
+  background-image: url("./img/move.svg");
   background-repeat: no-repeat;
   background-position: 0% 50%;
   background-size: 12%;
