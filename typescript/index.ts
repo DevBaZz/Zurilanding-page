@@ -1,3 +1,5 @@
+
+
 LottieInteractivity.create({
         mode: 'scroll',
         player: '#firstLottie',
